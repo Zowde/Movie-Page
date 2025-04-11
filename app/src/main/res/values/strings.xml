@@ -1,0 +1,25 @@
+<resources>
+<string name="app_name">Movie Page</string>
+<string name="movie_title">The Book Of Eli</string>
+<string name="movie_description">Thirty years after war turned the world into a wasteland, a lone warrior named Eli marches across the ruined landscape, carrying hope for humanity\'s redemption. Only one other man understands the power of what Eli carries and he is determined to take it for himself. Though Eli prefers peace, he must risk death to protect his precious cargo, to fulfill his destiny to help restore mankind.</string>
+<string name="select_theatre">Select Theatre</string>
+<string name="select_date">Select Date</string>
+<string name="tickets_hint">Number of Tickets</string>
+<string name="age_adult">Adult</string>
+<string name="age_child">Child</string>
+<string name="get_tickets">Get Tickets</string>
+
+<string name="theatre1">Cinema City</string>
+<string name="theatre2">Yes Planet</string>
+<string name="theatre3">Lev Tel Aviv</string>
+<string name="theatre4">Rav-Chen</string>
+<string name="theatre5">Globus Max</string>
+
+<string name="ticket_details_title">Your Ticket Details</string>
+<string name="confirm">Confirm</string>
+<string name="cancel">Cancel</string>
+<string name="order_confirmed">✅ Order Confirmed!</string>
+    <string name="ticket_details_message">🎬 Movie: %1$s\n🏢 Theatre: %2$s\n📅 Date: %3$s\n🎟️ Tickets: %4$s (%5$s)</string>
+
+</resources>
+

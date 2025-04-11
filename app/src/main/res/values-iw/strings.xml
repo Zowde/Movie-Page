@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">דף הסרט</string>
+    <string name="movie_title">ספרו של אלי</string>
+    <string name="movie_description">שלושים שנה לאחר שהמלחמה הפכה את העולם לשממה, לוחם בודד בשם אלי צועד על פני הנוף ההרוס ונושא עמו תקווה לגאולת האנושות. רק אדם אחד נוסף מבין את הכוח של מה שאלי נושא, והוא נחוש לקחת את זה לעצמו. למרות שאלי מעדיף שלום, עליו להסתכן במוות כדי להגן על המטען היקר שלו ולממש את ייעודו לסייע בשיקום האנושות.</string>
+    <string name="select_theatre">בחר תיאטרון</string>
+    <string name="select_date">בחר תאריך</string>
+    <string name="tickets_hint">מספר כרטיסים</string>
+    <string name="age_adult">מבוגר</string>
+    <string name="age_child">ילד</string>
+    <string name="get_tickets">קבל כרטיסים</string>
+
+    <string name="theatre1">סינמה סיטי</string>
+    <string name="theatre2">יס פלנט</string>
+    <string name="theatre3">לב תל אביב</string>
+    <string name="theatre4">רב-חן</string>
+    <string name="theatre5">גלובוס מקס</string>
+
+    <string name="ticket_details_title">פרטי הכרטיסים שלך</string>
+    <string name="confirm">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="order_confirmed">✅ ההזמנה אושרה!</string>
+    <string name="ticket_details_message">🎬 סרט: %1$s\n🏢 תיאטרון: %2$s\n📅 תאריך: %3$s\n🎟️ כרטיסים: %4$s (%5$s)</string>
+
+</resources>
