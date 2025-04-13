@@ -9,7 +9,7 @@
 <string name="age_child">Child</string>
 <string name="get_tickets">Get Tickets</string>
 
-<string name="theatre1">Cinema City</string>
+<string name="theatre1" >Cinema City</string>
 <string name="theatre2">Yes Planet</string>
 <string name="theatre3">Lev Tel Aviv</string>
 <string name="theatre4">Rav-Chen</string>

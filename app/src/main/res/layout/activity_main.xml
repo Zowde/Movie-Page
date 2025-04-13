@@ -10,22 +10,24 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:background="@color/desert_sand">
+
 
             <!-- movie title -->
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/movieTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/movie_title"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="16dp" />
 
             <!-- image slider -->
             <androidx.viewpager2.widget.ViewPager2
@@ -39,11 +41,11 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/movieDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:textColor="#000000"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:layoutDirection="ltr" />
@@ -53,10 +55,13 @@
                 android:id="@+id/theatreSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"/>
+
 
             <!-- select Date (Dialog) -->
             <Button
+                android:textColor="@color/golden_highlight"
+                android:backgroundTint="@color/charcoal"
                 android:id="@+id/selectDateButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,6 +70,7 @@
 
             <!-- number of tickets -->
             <EditText
+                android:textColor="@color/light_gray"
                 android:id="@+id/numberOfTickets"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,12 +87,14 @@
                 android:layout_marginBottom="16dp">
 
                 <RadioButton
+                    android:textColor="@color/light_gray"
                     android:id="@+id/adultRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/age_adult"/>
 
                 <RadioButton
+                    android:textColor="@color/light_gray"
                     android:id="@+id/childRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -95,6 +103,7 @@
 
             <!-- get tickets button -->
             <Button
+                android:backgroundTint="@color/golden_highlight"
                 android:id="@+id/getTicketsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
