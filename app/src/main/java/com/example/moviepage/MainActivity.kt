@@ -1,5 +1,6 @@
 package com.example.moviepage
 
+import InputFilterMinMax
 import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -42,6 +43,10 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = adapter1
         val slideInAnimation = AnimationUtils.loadAnimation(this, R.anim.slide)
         viewPager.startAnimation(slideInAnimation)
+
+        val numberOfTickets = findViewById<EditText>(R.id.numberOfTickets)
+        numberOfTickets.filters = arrayOf(InputFilterMinMax(1, 10))
+
 
         // setup spinner with theatre names
         val theatreSpinner1 = findViewById<Spinner>(R.id.theatreSpinner)

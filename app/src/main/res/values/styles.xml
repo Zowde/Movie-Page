@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Spinner Style -->
+    <style name="CustomSpinnerStyle">
+        <item name="android:textColor">@color/white</item> <!-- Spinner text color -->
+        <item name="android:background">@color/charcoal</item> <!-- Background color -->
+    </style>
+
+    <!-- Dropdown Item Style -->
+    <style name="CustomSpinnerDropdownStyle">
+        <item name="android:textColor">@color/white</item> <!-- Dropdown item text color -->
+        <item name="android:background">@color/charcoal</item> <!-- Dropdown background color -->
+    </style>
+</resources>

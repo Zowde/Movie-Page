@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <color name="background_dark">#1C1C1C</color>
-        <color name="desert_sand">#C19A6B</color>
-        <color name="charcoal">#3E3E3E</color>
-        <color name="light_gray">#E5E5E5</color>
-        <color name="golden_highlight">#FFD700</color>
-        <color name="radio_gray">#444444</color>
-    </resources>
+<resources>
+    <!-- Existing Colors -->
+    <color name="background_dark">#1C1C1C</color> <!-- Dark background color -->
+    <color name="desert_sand">#C19A6B</color> <!-- Light sand color -->
+    <color name="charcoal">#3E3E3E</color> <!-- Charcoal gray for darker elements -->
+    <color name="light_gray">#E5E5E5</color> <!-- Light gray for placeholders -->
+    <color name="golden_highlight">#FFD700</color> <!-- Golden accent color -->
+    <color name="radio_gray">#444444</color> <!-- Darker gray for radio buttons -->
+
+    <!-- New Colors for The Book of Eli Theme -->
+    <color name="charcoal_black">#2C2C2C</color> <!-- Dark background -->
+    <color name="charcoal_gray">#333333</color> <!-- Darker gray for buttons -->
+    <color name="silver">#C0C0C0</color> <!-- Metallic silver for title text -->
+    <color name="black_overlay">#1A1A1A</color> <!-- Overlay for text shadows -->
+    <color name="movie_poster_overlay">#80000000</color> <!-- Dark overlay for images -->
+</resources>

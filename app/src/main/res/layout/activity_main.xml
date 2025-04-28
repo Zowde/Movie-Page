@@ -10,105 +10,113 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <!-- LinearLayout wrapped inside ScrollView -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"
-            android:background="@color/desert_sand">
+            android:padding="24dp"
+            android:background="@color/light_gray">
 
-
-            <!-- movie title -->
+            <!-- Movie Title with more space and enhanced styling -->
             <TextView
-                android:textColor="@color/black"
                 android:id="@+id/movieTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/movie_title"
-                android:textSize="24sp"
+                android:textSize="36sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="16dp" />
+                android:textColor="@color/silver"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_marginBottom="32dp"
+            android:gravity="center" />
 
-            <!-- image slider -->
+            <!-- Image Slider with more space around it -->
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/movieImageSlider"
-                android:layout_width="371dp"
-                android:layout_height="408dp"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
                 android:layout_marginTop="20dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginBottom="24dp" />
 
+            <!-- Movie Description with larger font size for readability -->
             <TextView
-                android:textColor="@color/black"
                 android:id="@+id/movieDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layoutDirection="ltr" />
+                android:textSize="18sp"
+                android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:layoutDirection="ltr" />
 
-            <!-- select Theatre -->
+            <!-- Select Theatre Spinner with added margin for more space -->
             <Spinner
                 android:id="@+id/theatreSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:theme="@style/CustomSpinnerStyle" />
 
-
-            <!-- select Date (Dialog) -->
+            <!-- Select Date Button -->
             <Button
-                android:textColor="@color/golden_highlight"
-                android:backgroundTint="@color/charcoal"
                 android:id="@+id/selectDateButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/select_date"
-                android:layout_marginBottom="16dp"/>
+                android:textColor="@color/white"
+            android:backgroundTint="@color/charcoal_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
 
-            <!-- number of tickets -->
+            <!-- Number of Tickets EditText with limited input and better space -->
             <EditText
-                android:textColor="@color/light_gray"
                 android:id="@+id/numberOfTickets"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="@string/tickets_hint"
-                android:inputType="number" />
+                android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="@string/tickets_hint"
+            android:backgroundTint="@color/charcoal_gray"
+            android:inputType="number" />
 
-            <!-- child or adult -->
+
+            <!-- Age Group Radio Buttons (with increased margin for better layout) -->
             <RadioGroup
                 android:id="@+id/ageGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="24dp">
 
                 <RadioButton
-                    android:textColor="@color/light_gray"
                     android:id="@+id/adultRadioButton"
+                    android:text="@string/age_adult"
+                    android:textColor="@color/black"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/age_adult"/>
+                    android:layout_height="wrap_content" />
 
                 <RadioButton
-                    android:textColor="@color/light_gray"
                     android:id="@+id/childRadioButton"
+                    android:text="@string/age_child"
+                    android:textColor="@color/black"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/age_child"/>
+                    android:layout_height="wrap_content" />
             </RadioGroup>
 
-            <!-- get tickets button -->
+            <!-- Get Tickets Button -->
             <Button
-                android:backgroundTint="@color/golden_highlight"
                 android:id="@+id/getTicketsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/get_tickets"
-                android:layout_marginBottom="16dp"/>
+                android:textColor="@color/white"
+                android:backgroundTint="@color/charcoal"
+                android:layout_marginBottom="24dp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
