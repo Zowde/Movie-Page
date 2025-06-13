@@ -14,12 +14,18 @@
 <string name="theatre3">Lev Tel Aviv</string>
 <string name="theatre4">Rav-Chen</string>
 <string name="theatre5">Globus Max</string>
-
 <string name="ticket_details_title">Your Ticket Details</string>
 <string name="confirm">Confirm</string>
 <string name="cancel">Cancel</string>
 <string name="order_confirmed">✅ Order Confirmed!</string>
     <string name="ticket_details_message">🎬 Movie: %1$s\n🏢 Theatre: %2$s\n📅 Date: %3$s\n🎟️ Tickets: %4$s (%5$s)</string>
+    <string name="confirmm">Confirm</string>
+    <string name="cancell">Cancel</string>
+    <string name="rating_prompt">Rate the movie:</string>
+    <string name="rating_current">Current rating: %1$d</string>
+    <string name="notifications_switch">Notify me about similar movies</string>
+    <string name="notifications_on">Notifications are ON</string>
+    <string name="notifications_off">Notifications are OFF</string>
 
 </resources>
 

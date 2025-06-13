@@ -15,11 +15,17 @@
     <string name="theatre3">לב תל אביב</string>
     <string name="theatre4">רב-חן</string>
     <string name="theatre5">גלובוס מקס</string>
-
     <string name="ticket_details_title">פרטי הכרטיסים שלך</string>
     <string name="confirm">אישור</string>
     <string name="cancel">ביטול</string>
     <string name="order_confirmed">✅ ההזמנה אושרה!</string>
     <string name="ticket_details_message">🎬 סרט: %1$s\n🏢 תיאטרון: %2$s\n📅 תאריך: %3$s\n🎟️ כרטיסים: %4$s (%5$s)</string>
+    <string name="confirmm">אישור</string>
+    <string name="cancell">ביטול</string>
+    <string name="rating_prompt">דרג את הסרט:</string>
+    <string name="rating_current">דירוג נוכחי: %1$d</string>
+    <string name="notifications_switch">קבל התראות על סרטים דומים</string>
+    <string name="notifications_on">התראות הופעלו</string>
+    <string name="notifications_off">התראות כבויות</string>
 
 </resources>

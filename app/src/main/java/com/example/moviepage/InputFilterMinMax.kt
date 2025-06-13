@@ -15,12 +15,12 @@ class InputFilterMinMax(private val min: Int, private val max: Int) : InputFilte
             val newVal = dest.toString().substring(0, dstart) + source.toString() + dest.toString().substring(dend)
             val input = newVal.toInt()
             if (isInRange(min, max, input)) {
-                return null // Acceptable
+                return null // acceptable
             }
         } catch (e: NumberFormatException) {
-            // Ignore parse error
+            // ignore parse error
         }
-        return "" // Reject
+        return "" // reject
     }
 
     private fun isInRange(min: Int, max: Int, value: Int): Boolean {

@@ -41,6 +41,16 @@
                 android:layout_height="400dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="24dp" />
+            <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+                android:id="@+id/dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                app:dotsColor="@color/black"
+                app:dotsStrokeColor="@color/charcoal_gray"
+                app:dotsStrokeWidth="2dp"/>
+
 
             <!-- Movie Description with larger font size for readability -->
             <TextView
@@ -58,9 +68,16 @@
                 android:id="@+id/theatreSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/white"
-                android:theme="@style/CustomSpinnerStyle" />
+                android:padding="12dp"
+                android:background="@drawable/spinner_background"
+                android:spinnerMode="dropdown"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="32dp"
+                />
 
             <!-- Select Date Button -->
             <Button
@@ -107,7 +124,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </RadioGroup>
-
             <!-- Get Tickets Button -->
             <Button
                 android:id="@+id/getTicketsButton"
@@ -117,6 +133,49 @@
                 android:textColor="@color/white"
                 android:backgroundTint="@color/charcoal"
                 android:layout_marginBottom="24dp" />
+            <TextView
+                android:id="@+id/ratingPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_prompt"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:layoutDirection="locale"
+                android:gravity="start" />
+
+            <SeekBar
+                android:id="@+id/ratingSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/ratingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_current"
+                android:textColor="@color/charcoal_gray"
+                android:layout_marginBottom="24dp"
+                android:layoutDirection="locale" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_marginTop="32dp"
+                />
+
+            <Switch
+                android:id="@+id/notificationsSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notifications_switch"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:layoutDirection="locale" />
+
+
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
